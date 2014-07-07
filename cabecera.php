@@ -3,7 +3,7 @@
 <div class="container_12" > 
 	<div class="grid_12">
     	<div class="banner">
-		<img src="<?php echo $folder;?>imagenes/cabecera.jpg" alt="" width="100%" height="200">
+		<img src="<?php echo $folder;?>imagenes/cabecera.jpg" alt="" width="100%" height="60%">
         </div>
 	</div>
 	<div class="clear"></div>
