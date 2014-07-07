@@ -7,6 +7,7 @@ class PDF extends PPDF{
 	function Cabecera(){
 		global $dp,$pers;	
 		$this->CuadroCabecera(20,"Juridicción:",40,$dp['jurisdiccion']);
+		$this->ln();
 		$this->CuadroCabecera(10,"Nit:",40,$dp['nit']);
 		$this->CuadroCabecera(25,"Razon Social:",45,$pers['razon_social']);
 		$this->ln();
