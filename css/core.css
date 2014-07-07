@@ -308,7 +308,7 @@ input[type=text]:focus,input[type=number]:focus,input.texto:focus,textarea:focus
 	border:#39F 1px solid;
 }
 input[type=submit].enviar,input[type=submit]{
-	margin-top:15px;
+	/*margin-top:15px;
 -moz-border-radius: 5px; -webkit-border-radius: 5px; -msie-border-radius: 5px;
 	background : -linear-gradient(top, rgb(1, 134, 191) 00%, rgb(15, 109, 164) 99%);
 	background : -moz-linear-gradient(top, rgb(1, 134, 191) 00%, rgb(15, 109, 164) 99%);
@@ -326,10 +326,16 @@ input[type=submit].enviar,input[type=submit]{
 	color:#FFF;
 	cursor:pointer;
 
-	padding:7px;
+	padding:7px;*/
+	background-color: #C96;
+color: #FFF;
+text-decoration: none;
+padding: 10px;
+display: inline-block;
+border:#C96 1px solid;
 }
 input[type=submit].enviar:hover,input[type=submit]:hover{
-box-shadow: #999 2px 2px 3px;
+/*box-shadow: #999 2px 2px 3px;*/
 }
 input[readonly]{
 	background-color:#EFEFEF;

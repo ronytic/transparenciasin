@@ -86,13 +86,13 @@ class bd{
 			$val[]=$v;
 		}
 		if($swadicional==1){
-			$codusuario=$_SESSION['codusuario'];
+			$codusuario=$_SESSION['idusuario'];
 			if(empty($codusuario)){$codusuario=1;};
 			$fecha=date("Y-m-d");
 			$hora=date("H:i:s");
-			array_push($key, "id");
-			array_push($key,"fecha");
-			array_push($key,"hora");
+			array_push($key, "cod_usuario");
+			array_push($key,"fecha_reg");
+			array_push($key,"hora_reg");
 			array_push($key, "activo");
 			array_push($val,$codusuario);
 			array_push($val,"'$fecha'");
