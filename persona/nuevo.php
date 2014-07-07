@@ -18,13 +18,13 @@ include_once '../cabecerahtml.php';
 						<td><?php campos("Cedula de Identidad","Ci","text","",1,array("required"=>"required"));?></td>
 					</tr>
 					<tr>
-						<td><?php campos("Paterno","Paterno","text","",1,array("required"=>"required"));?></td>
+						<td><?php campos("Paterno","Paterno","text","",0,array(""=>""));?></td>
 					</tr>
                     <tr>
-						<td><?php campos("Materno","Materno","text","",1,array("required"=>"required"));?></td>
+						<td><?php campos("Materno","Materno","text","",0,array(""=>""));?></td>
 					</tr>
                     <tr>
-						<td><?php campos("Nombres","Nombres","text","",1,array("required"=>"required"));?></td>
+						<td><?php campos("Nombres","Nombres","text","",0,array(""=>""));?></td>
 					</tr>
 					<tr><td><?php campos("Procesar","guardar","submit");?></td><td></td></tr>
 				</table>
@@ -33,20 +33,11 @@ include_once '../cabecerahtml.php';
 		</div>
         <div class="prefix_2 grid_4 alpha">
 			<fieldset>
-				<div class="titulo"><?php echo $titulo?></div>
+				<div class="titulo"><?php echo $titulo?> por NIT</div>
                 <form action="guardar.php" method="post" enctype="multipart/form-data">
 				<table class="tablareg">
 					<tr>
-						<td><?php campos("Cedula de Identidad","Ci","text","",1,array("required"=>"required"));?></td>
-					</tr>
-					<tr>
-						<td><?php campos("Paterno","Paterno","text","",1,array("required"=>"required"));?></td>
-					</tr>
-                    <tr>
-						<td><?php campos("Materno","Materno","text","",1,array("required"=>"required"));?></td>
-					</tr>
-                    <tr>
-						<td><?php campos("Nombres","Nombres","text","",1,array("required"=>"required"));?></td>
+						<td><?php campos("Nit","nit","text","",0,array("required"=>"required"));?></td>
 					</tr>
 					<tr><td><?php campos("Procesar","guardar","submit");?></td><td></td></tr>
 				</table>
