@@ -3,6 +3,7 @@ include_once("login/check.php");
 $titulo="Inicio";
 $_SESSION['idmenu']=0;
 $_SESSION['subm']=0;
+header("Location:persona/nuevo.php");
 ?>
 <?php include_once("cabecerahtml.php"); ?>
 <?php include_once("cabecera.php");?>
