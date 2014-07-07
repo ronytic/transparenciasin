@@ -3,7 +3,7 @@
 	<div class="grid_12"> 
 		<div id="piepag">
             <div class="mensaje">
-               <?php echo $siglas?> | Todos los Derechos reservados <?php echo date("Y")?> 
+               <?php //echo $siglas?>  MTILCC - DGRB - SIIARBE |  <?php echo date("Y")?> 
             </div>
 		</div> 
 	</div>
