@@ -396,7 +396,7 @@ text-decoration: none;
 -webkit-border-radius: 5px;
 -msie-border-radius: 5px;
 text-align: center;
-box-shadow: #333 3px 3px 5px;
+/*box-shadow: #333 3px 3px 5px;*/
 text-shadow: #333 1px 1px 3px;
 }
 a.botonsubmenu{
@@ -636,7 +636,7 @@ a.botonverde,a.botonrojo,a.botonnaranja,a.botonazul{
 	text-decoration:none;
 	-moz-border-radius: 5px; -webkit-border-radius: 5px; -msie-border-radius: 5px;
 	text-align:center;
-	box-shadow:#333 3px 3px 5px;
+	/*box-shadow:#333 3px 3px 5px;*/
 	text-shadow:#333 1px 1px 3px;
 }
 a.botonrojo{
